@@ -103,6 +103,18 @@ canvas {
     color: #333;
 }
 
+.chart-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;       /* allows horizontal scroll if needed */
+    margin: 0 20px 50px 20px;    /* spacing around chart */
+}
+.chart-wrapper canvas {
+    max-width: 100%;       /* scales down to fit container on desktop */
+    height: auto;
+    display: block;
+}
+
 #faq {
     margin-top: 40px;
 }
@@ -231,4 +243,10 @@ a {
 /* adds underline on hover */
 a:hover {
     text-decoration: underline;
+}
+
+.footer-sources a {
+    text-decoration: none;
+    word-break: break-word; /* allows URLs to wrap */
+    overflow-wrap: anywhere; /* ensures wrapping */
 }
