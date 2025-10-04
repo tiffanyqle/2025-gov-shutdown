@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Shutdown Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>2025 Government Shutdown: Impact & Analysis</h1>
+        <p>Understanding federal government shutdowns, their impact on employees and agencies, and historical comparisons</p>
+    </header>
+
+    <!-- overview boxes -->
+    <section id="overview">
+        <div class="box" id="total-furloughed">
+            <h3>Furloughed Employees</h3>
+            <p>Loading...</p>
+        </div>
+        <div class="box" id="agencies-impacted">
+            <h3>Agencies Impacted</h3>
+            <p>Loading...</p>
+        </div>
+        <div class="box" id="shutdown-duration">
+            <h3>Duration</h3>
+            <p>Loading...</p>
+        </div>
+    </section>
+
+    <!-- charts -->
+    <section id="charts">
+        <canvas id="furloughedChart"></canvas>
+        <canvas id="percentChart"></canvas>
+    </section>
+
+    <!--Box 1: Scale of Impact -->
+    <section id="impact">
+    <div class="impact-box">
+        <h3>Scale of Impact</h3>
+        <hr class="divider">
+        <div class="impact-content">
+            <div class="impact-left">
+                <h4>Recent Shutdown</h4>
+                <p id="impact-furloughed" style="display: inline;">Loading...</p>
+                <p style="display: inline;"> federal employees furloughed across 20 agencies</p>
+            </div>
+            <div class="impact-right">
+                <h4>Historical Context</h4>
+                <p>2018-19 government shutdown furloughed 800,000 employees</p>
+            </div>
+        </div>
+        <!-- <hr class="divider">
+         <div class="impact-description"> 
+            <p>...</p> -->
+        </div>
+    </div>
+
+    <!-- Box 2: Duration -->
+    <div class="impact-box">
+        <h3>Duration</h3>
+        <hr class="divider">
+        <div class="impact-content">
+            <div class="impact-left">
+                <h4>Recent Shutdown</h4>
+                <p id="impact-duration" style="display: inline;">Loading...</p>
+                <p style="display: inline;"> (ongoing)</p>
+            </div>
+            <div class="impact-right">
+                <h4>Historical Context</h4>
+                <p>Average: 8 days; Longest: 35 days</p>
+                <!-- <p>Longest: 35 days (2018-19)</p> -->
+            </div>
+        </div>
+        <!-- <hr class="divider">
+         <div class="impact-description">
+            <p>...</p>
+        </div> -->
+    </div>
+    </section>
+
+    <!-- faq -->
+    <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <p>Understanding how government shutdowns work and their impact</p>
+
+    <div class="faq-item">
+        <button class="faq-question">What is a government shutdown?</button>
+        <div class="faq-answer">
+            <p>A government shutdown occurs when Congress fails to pass or the President refuses to sign a spending bill to fund federal government operations. During a shutdown, non-essential federal agencies cease operations until funding legislation is passed and signed into law.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Who is affected by a government shutdown?</button>
+        <div class="faq-answer">
+            <p>Government shutdowns primarily affect federal employees, contractors, and individuals who rely on federal services. Essential employees continue working but may <strong>not</strong> receive pay until the shutdown ends. Non-essential employees are furloughed.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Do federal employees get paid during a shutdown?</button>
+        <div class="faq-answer">
+            <p>Essential employees required to work during a shutdown do <strong>not</strong> receive paychecks during the shutdown but are guaranteed back pay once it ends. Since the passage of the Government Employee Fair Treatment Act of 2019 (GEFTA), furloughed employees are also guaranteed back pay. However, federal contractors typically do <strong>not</strong> receive back pay.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">How long do government shutdowns typically last?</button>
+        <div class="faq-answer">
+            <p>The duration varies significantly. Most shutdowns last just a few days, but some have extended much longer. The longest shutdown in U.S. history was from December 2018 to January 2019, lasting 35 days.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">What causes a government shutdown?</button>
+        <div class="faq-answer">
+            <p>Shutdowns occur due to political disagreements over federal spending and policy priorities. Common causes include disputes over the federal budget, the debt ceiling, funding for specific programs or policies (like healthcare, immigration, or infrastructure), and partisan disagreements between the executive and legislative branches.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">How does a shutdown end?</button>
+        <div class="faq-answer">
+            <p>A shutdown ends when Congress passes and the President signs either: (1) appropriations bills funding the affected agencies for the full fiscal year, (2) a continuing resolution that provides temporary funding at previous levels, or (3) a compromise agreement that addresses the disputed issues. Sometimes partial funding bills are passed to reopen some agencies while negotiations continue on others.</p>
+        </div>
+    </div>
+    </section>
+
+<footer class="site-footer">
+    <div class="footer-bio">
+    <!-- Top row: photo + first paragraph -->
+    <div class="bio-top-row">
+        <img src="pfp.jpg" alt="Tiffany Le" class="footer-photo">
+        <p class="bio-intro"><strong>Tiffany Le</strong> is a Management Information Systems student at George Mason University passionate about the intersection of technology and business to drive innovation and solve real-world problems.</p>
+    </div>
+
+    <!-- Bottom stacked paragraphs -->
+        <p>Inspired by the recent government shutdown, I saw an opportunity to leverage my background in programming and web development to create data-driven visuals and provide information on an event that impacts many Americans.</p>
+        <p>If you'd like to get in touch, connect with me <a href="https://www.linkedin.com/in/tiffanyqle" target="_blank">here</a>.</p>
+    </div>
+
+
+    <div class="footer-sources">
+        <h4>Sources</h4>
+        <ul>
+        <p>Shutdown of the Federal Government: Causes, Processes, and Effects. (2025, October 4). <a href="https://www.congress.gov/crs-product/RL34680" target="_blank">https://www.congress.gov/crs-product/RL34680</a></p>
+        <p>History, Art & Archives, U.S. House of Representatives, “Funding Gaps and Shutdowns in the Federal Government,” <a href="https://history.house.gov/Institution/Shutdown/Government-Shutdowns/" target="_blank">https://history.house.gov/Institution/Shutdown/Government-Shutdowns/</a> (October 04, 2025)</p>
+        <p>Wright, S. (2025, October 1). Here's a look at federal agencies' shutdown contingency plans. Federal News Network - Helping feds meet their mission. <a href="https://federalnewsnetwork.com/government-shutdown/2025/09/heres-a-look-at-federal-agencies-contingency-plans-as-shutdown-looms/" target="_blank">https://federalnewsnetwork.com/government-shutdown/2025/09/heres-a-look-at-federal-agencies-contingency-plans-as-shutdown-looms/</a></p>
+        </ul>
+    </div>
+
+    <div class="footer-updated">
+        <p>Last updated: Oct 4, 2025</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

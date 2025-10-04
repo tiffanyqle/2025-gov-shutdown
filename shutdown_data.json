@@ -1,0 +1,125 @@
+{
+  "furloughed_employees": [
+    {
+      "agency": "State Department",
+      "total_employees": 26995,
+      "furloughed": 16651,
+      "percent_affected": 61.7
+    },
+    {
+      "agency": "Department of Defense",
+      "total_employees": 741477,
+      "furloughed": 334904,
+      "percent_affected": 45.2,
+      "note": "this is only civilian personnel, military and reserve members continute reporting for duty"
+    },
+    {
+      "agency": "Department of Commerce",
+      "total_employees": 42000,
+      "furloughed": 33700,
+      "percent_affected": 80.2
+    },
+    {
+      "agency": "Department of Agriculture",
+      "total_employees": 85907,
+      "furloughed": 42256,
+      "percent_affected": 49.2
+    },
+    {
+      "agency": "Department of Education",
+      "total_employees": 2500,
+      "furloughed": 2000,
+      "percent_affected": 80.0
+    },
+    {
+      "agency": "Small Business Administration",
+      "total_employees": 6200,
+      "furloughed": 1390,
+      "percent_affected": 22.4
+    },
+    {
+      "agency": "Environmental Protection Agency",
+      "total_employees": 15166,
+      "furloughed": 13432,
+      "percent_affected": 88.6
+    },
+    {
+      "agency": "Department of Veteran Affairs",
+      "total_employees": 461500,
+      "furloughed": 15000,
+      "percent_affected": 3.3
+    },
+    {
+      "agency": "Department of Homeland Security",
+      "total_employees": 272000,
+      "furloughed": 14000,
+      "percent_affected": 5.1
+    },
+    {
+      "agency": "Social Security Administration",
+      "total_employees": 51825,
+      "furloughed": 6197,
+      "percent_affected": 12.0
+    },
+    {
+      "agency": "Department of Health and Human Services",
+      "total_employees": 80000,
+      "furloughed": 32000,
+      "percent_affected": 40.0
+    },
+    {
+      "agency": "Department of Justice",
+      "total_employees": 115000,
+      "furloughed": 13000,
+      "percent_affected": 11.3
+    },
+    {
+    "agency": "Department of Labor",
+    "total_employees": 13000,
+    "furloughed": 10400,
+    "percent_affected": 80.0
+  },
+  {
+    "agency": "Department of Transportation",
+    "total_employees": 44829,
+    "furloughed": 11322,
+    "percent_affected": 25.3
+  },
+  {
+    "agency": "NASA",
+    "total_employees": 18218,
+    "furloughed": 15094,
+    "percent_affected": 82.8
+  },
+  {
+    "agency": "Department of the Treasury",
+    "total_employees": 2714,
+    "furloughed": 859,
+    "percent_affected": 31.6
+  },
+  {
+    "agency": "Army Corps of Engineers",
+    "total_employees": 36610,
+    "furloughed": 1119,
+    "percent_affected": 3.1
+  },
+  {
+    "agency": "National Archives and Records Administration",
+    "total_employees": 2536,
+    "furloughed": 1557,
+    "percent_affected": 61.4
+  },
+  {
+    "agency": "National Science Foundation",
+    "total_employees": 1402,
+    "furloughed": 1054,
+    "percent_affected": 75.2
+  },
+  {
+    "agency": "General Services Administration",
+    "total_employees": 10800,
+    "furloughed": 4300,
+    "percent_affected": 39.8
+  }
+  ]
+}
