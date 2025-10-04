@@ -107,7 +107,7 @@ canvas {
     display: flex;
     justify-content: center;
     overflow-x: auto;       /* allows horizontal scroll if needed */
-    margin: 0 20px 50px 20px;    /* spacing around chart */
+    margin: 0 100px 50px 100px;    /* spacing around chart */
 }
 .chart-wrapper canvas {
     max-width: 100%;       /* scales down to fit container on desktop */
