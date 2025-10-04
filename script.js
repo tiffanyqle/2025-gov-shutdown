@@ -46,7 +46,7 @@ function updateCharts(filtered) {
                 title: {
                     display: true,
                     text: "Furloughed Federal Employees by Agency",
-                    font: { size: 18, weight: 'bold' }
+                    font: { size: 25, weight: 'bold' }
                 }
             },
             scales: {
@@ -89,7 +89,7 @@ function updateCharts(filtered) {
                 title: {
                     display: true,
                     text: "Percent of Employees Furloughed by Agency",
-                    font: { size: 18, weight: 'bold' }
+                    font: { size: 25, weight: 'bold' }
                 }
             },
             scales: {

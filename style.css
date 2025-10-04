@@ -37,6 +37,10 @@ canvas {
     gap: 20px;
 }
 
+#overview-summary {
+    text-align: center;
+}
+
 .box {
     background-color: #ffffff;
     padding: 20px;
