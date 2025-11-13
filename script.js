@@ -125,11 +125,13 @@ function updateOverview() {
     document.querySelector("#agencies-impacted p").textContent = agenciesImpacted;
 
     //shutdown duration (days since Oct 1, 2025)
-    const shutdownStart = new Date("2025-10-01");
+    /*const shutdownStart = new Date("2025-10-01");
     const today = new Date();
     const diffTime = today - shutdownStart; //milliseconds
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1; //+1 to include start day
-    document.querySelector("#shutdown-duration p").textContent = diffDays + " days";
+    document.querySelector("#shutdown-duration p").textContent = diffDays + " days"; */
+    document.querySelector("#shutdown-duration p").textContent = "43 days";
+
 }
 
 function updateImpactBoxes() {
@@ -138,11 +140,12 @@ function updateImpactBoxes() {
     document.getElementById("impact-furloughed").textContent = totalFurloughed.toLocaleString();
 
     //duration of current shutdown
-    const shutdownStart = new Date("2025-10-01");
+    /*const shutdownStart = new Date("2025-10-01");
     const today = new Date();
     const diffTime = today - shutdownStart;
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1;
-    document.getElementById("impact-duration").textContent = diffDays + " days";
+    document.getElementById("impact-duration").textContent = diffDays + " days";*/
+    document.getElementById("impact-duration").textContent = "43 days";
 }
 
 //FAQ toggle function
