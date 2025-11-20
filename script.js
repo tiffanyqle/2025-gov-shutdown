@@ -69,7 +69,7 @@ function updateCharts(filtered) {
         }
     });
 
-    //Percent Affected Chart 
+    //Percent Affected Chart.
     const ctx2 = document.getElementById("percentChart").getContext("2d");
     percentChart = new Chart(ctx2, {
         type: "bar",
